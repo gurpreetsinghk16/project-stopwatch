@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="stopwatch">
+        <div class="container">
+            <h1><b>Stopwatch by CodePreet</b></h1>
+        </div>
+        
         <h1 id="displayTime">00.00.00</h1>
         <div class="button">
-            <img src="stop.png.png" alt="stop">
+            <img src="stop.png.png" alt="stop" onclick="watchStop()">
             <img src="start.png.png" alt="start" onclick="watchStart()">
-            <img src="reset.png.png" alt="reset">
+            <img src="reset.png.png" alt="reset" onclick="watchReset()">
+        </div>
+        <div class="footer">
+            <h2><a href="https://github.com/gurpreetsinghk16/">Github</a></h2>
+            <h2><a href="https://gurpreetsinghk16.github.io/portfolio-website/">My Website</a></h2>
         </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

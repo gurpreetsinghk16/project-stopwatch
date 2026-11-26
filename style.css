@@ -31,3 +31,27 @@
 .button img:nth-child(2){
     width: 8vw;
 }
+.footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer a{
+    
+    background-color: #241432;
+    border-radius: 6px;
+    color: #cac5cd;
+    box-shadow: inset; 
+}
+
+.footer h2{
+    height: 50px;
+}
+
+.footer a:hover{
+    background-color:#3a2052;
+    transition: ease-in 0.2s;
+    border: 2px solid wheat;
+    
+}
